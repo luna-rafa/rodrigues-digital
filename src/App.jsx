@@ -4,7 +4,7 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Projects from "./components/Projects/Projects";
 import Process from "./components/Process/Process";
-import Faq from "./components/Faq/Faq";
+import Faq from "./components/FAQ/Faq";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
