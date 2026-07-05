@@ -1,0 +1,280 @@
+.process {
+  position: relative;
+  margin-top: -1px;
+  padding: 80px 0 120px;
+  background:
+    radial-gradient(
+      circle at 15% 40%,
+      rgba(8, 124, 255, 0.18),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 85% 65%,
+      rgba(0, 210, 255, 0.1),
+      transparent 28%
+    ),
+    linear-gradient(
+      180deg,
+      #163248 0%,
+      #0b2235 18%,
+      #06182a 48%,
+      #020b14 100%
+    );
+  overflow: hidden;
+}
+
+.process-container {
+  position: relative;
+  z-index: 2;
+}
+
+.process-heading {
+  max-width: 760px;
+}
+
+.process-tag {
+  display: inline-flex;
+  margin-bottom: 20px;
+  color: #42a0ff;
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.process-heading h2 {
+  color: #ffffff;
+  font-size: clamp(2.4rem, 4vw, 4.2rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -2px;
+}
+
+.process-heading > p {
+  max-width: 650px;
+  margin-top: 24px;
+  color: #a8b5c4;
+  font-size: 1.04rem;
+  line-height: 1.8;
+}
+
+.process-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  margin-top: 70px;
+}
+
+.process-grid::before {
+  content: "";
+  position: absolute;
+  top: 47px;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(66, 160, 255, 0.5),
+    rgba(0, 210, 255, 0.4),
+    transparent
+  );
+}
+
+.process-card {
+  position: relative;
+  min-height: 310px;
+  padding: 30px;
+  border-radius: 26px;
+  background: rgba(6, 24, 42, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.2);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background 0.3s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(66, 160, 255, 0.5);
+  background: rgba(8, 35, 60, 0.9);
+}
+
+.process-number {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #087cff, #42a0ff);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+  box-shadow: 0 15px 35px rgba(8, 124, 255, 0.3);
+}
+
+.process-card-content {
+  margin-top: 42px;
+}
+
+.process-card h3 {
+  color: #ffffff;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.process-card p {
+  margin-top: 18px;
+  color: #a8b5c4;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.process-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  pointer-events: none;
+}
+
+.process-glow-one {
+  width: 320px;
+  height: 320px;
+  top: 100px;
+  left: -160px;
+  background: rgba(8, 124, 255, 0.16);
+}
+
+.process-glow-two {
+  width: 280px;
+  height: 280px;
+  right: -120px;
+  bottom: 40px;
+  background: rgba(0, 210, 255, 0.1);
+}
+
+@media (max-width: 1100px) {
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-grid::before {
+    display: none;
+  }
+
+  .process-card {
+    min-height: 270px;
+  }
+}
+
+@media (max-width: 760px) {
+  .process {
+    padding: 90px 0;
+  }
+
+  .process-heading h2 {
+    letter-spacing: -1.5px;
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 50px;
+  }
+
+  .process-card {
+    min-height: 250px;
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .process-number {
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    font-size: 0.86rem;
+  }
+
+  .process-card-content {
+    margin-top: 30px;
+  }
+
+  .process-card h3 {
+    font-size: 1.08rem;
+  }
+
+  .process-card p {
+    margin-top: 14px;
+    font-size: 0.84rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .process {
+    padding: 75px 0;
+  }
+
+  .process-heading h2 {
+    font-size: 2.35rem;
+  }
+
+  .process-heading > p {
+    font-size: 0.94rem;
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .process-card {
+    min-height: 235px;
+    padding: 17px;
+    border-radius: 18px;
+  }
+
+  .process-number {
+    width: 44px;
+    height: 44px;
+    border-radius: 13px;
+    font-size: 0.76rem;
+  }
+
+  .process-card-content {
+    margin-top: 24px;
+  }
+
+  .process-card h3 {
+    font-size: 0.92rem;
+  }
+
+  .process-card p {
+    font-size: 0.74rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 360px) {
+  .process-grid {
+    gap: 9px;
+  }
+
+  .process-card {
+    min-height: 225px;
+    padding: 14px;
+  }
+
+  .process-card h3 {
+    font-size: 0.84rem;
+  }
+
+  .process-card p {
+    font-size: 0.7rem;
+  }
+}
