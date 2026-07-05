@@ -1,16 +1,57 @@
-# React + Vite
+# Rodrigues Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing Page oficial da Rodrigues Digital.
 
-Currently, two official plugins are available:
+A Rodrigues Digital desenvolve soluções digitais estratégicas e personalizadas para empresas, profissionais e empreendedores que desejam fortalecer sua presença digital.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+Este projeto apresenta a Rodrigues Digital, seus serviços, projetos desenvolvidos e processo de trabalho.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A Landing Page foi desenvolvida com foco em:
 
-## Expanding the ESLint configuration
+- Design responsivo
+- Experiência do usuário
+- Performance
+- Presença digital profissional
+- Navegação intuitiva
+- Suporte multilíngue
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Serviços
+
+- Sites Institucionais
+- Landing Pages
+- Portfólios Profissionais
+- Mídia Kits
+
+## Tecnologias utilizadas
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+
+## Idiomas
+
+A Landing Page possui suporte para:
+
+- Português
+- Inglês
+- Espanhol
+
+## Projetos apresentados
+
+A Landing Page apresenta uma seleção de projetos desenvolvidos pela Rodrigues Digital, incluindo Landing Pages, Portfólios e Mídia Kits.
+
+## Desenvolvido por
+
+**Rafaela Rodrigues**
+
+Fundadora da Rodrigues Digital.
+
+Tecnologia, estratégia e propósito para transformar ideias em presença digital profissional.
+
+---
+
+© 2026 Rodrigues Digital. Todos os direitos reservados.
