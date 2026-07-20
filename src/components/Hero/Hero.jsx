@@ -8,7 +8,7 @@ import rebanhaoProject from "../../assets/projects/rebanhão-project.png";
 function Hero() {
   const { t } = useLanguage();
 
-  const whatsappUrl = `https://wa.me/5527996245165?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/5527995749915?text=${encodeURIComponent(
     t.whatsapp
   )}`;
 

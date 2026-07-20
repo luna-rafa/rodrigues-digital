@@ -4,7 +4,7 @@ import { useLanguage } from "../../i18n/LanguageContext";
 function Contact() {
   const { t } = useLanguage();
 
-  const whatsappUrl = `https://wa.me/5527996245165?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/5527995749915?text=${encodeURIComponent(
     t.contact.whatsappMessage
   )}`;
 

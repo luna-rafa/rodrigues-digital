@@ -5,7 +5,7 @@ import logoRD from "../../assets/logos/logo-rd.png";
 function Header() {
   const { language, setLanguage, t } = useLanguage();
 
-  const whatsappUrl = `https://wa.me/5527996245165?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/5527995749915?text=${encodeURIComponent(
     t.whatsapp
   )}`;
 
